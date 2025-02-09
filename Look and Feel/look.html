@@ -106,9 +106,52 @@
         </div>
 
         <!-- Content Area -->
-        <div class="content-area">
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <h5><b>Look and Feel</b></h5>
+                    <img src="/images/_File upload base.png" class="bot-avatar" alt="Bot Avatar">
+                    <h6 class="bot">Bot Avatar</h6>
+                    <button class="btn btn-secondary-box btn-sm d-block mx-auto">Browse Files</button>
+                    <div class="mt-3">
+                        <label for="botName" style="font-size: 0.9rem;">Bot Name</label>
+                        <input type="text" id="botName" class="form-control" placeholder="Grizzly">
+                    </div>
+                    <div class="mt-3">
+                        <label for="welcomeMessage"  style="font-size: 0.9rem;">Welcome Message</label>
+                        <textarea id="welcomeMessage" class="form-control" placeholder="Enter the welcome message here"></textarea>
+                    </div>
+                    <div class="mt-3">
+                        <label  style="font-size: 0.9rem;">Predefined Options</label>
+                        <input type="text" class="form-control" placeholder="Not sure what to ask, Order Tracking, More Info">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="chat-preview">
+                    <div class="chat-header"> 
+                        <div class="d-flex">
+                            <img  src="/images/_File upload base.png" alt="bot" class="bot-avatar-chat">
+                            <h5 class="grizzly">Grizzly</h5>
+                        </div>
+                        </div>
+                    <div class="chat-body">
+                        <div class="chat-message">Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="chat-message">Chat Bot: Lorem ipsum dolor sit amet...</div>
+                    </div>
+                    
+                    <div class="p-2 d-flex justify-content-between align-items-center">
+                        <button class="btn btn-outline-secondary btn-sm">Not sure what to ask</button>
+                        <button class="btn btn-outline-secondary btn-sm">Order Tracking</button>
+                        <button class="btn btn-outline-secondary btn-sm">More Info</button>
+                    </div>
+                    <div class="p-2">
+                        <input type="text" class="form-control" placeholder="Start conversation">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-
     </main>
 
     <!-- Chatbot Modal -->
